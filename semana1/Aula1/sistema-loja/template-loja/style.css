@@ -1,0 +1,168 @@
+/*Cabeçalho*/
+.cabeca {
+    background-image: url("./img/head.jpg");
+    filter: blur (15px);
+    }
+
+.cabecalho {
+    
+    width: fill;
+    height: 250px;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.cabecalho p {
+    color: white;
+    text-transform: uppercase;
+
+}
+
+h1 {
+   color: white ;
+   font-size: 60px ;
+}
+
+/* Corpo */
+
+.corpo {
+    
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+    border: 5px solid white ;
+    padding: 20px;
+    
+
+   
+}
+
+#inicial {
+    text-decoration: none;
+    color: white;
+   
+    
+
+    
+}
+
+#estoque {
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+#produto {
+    text-decoration: none;
+    color:white;
+    
+    
+    
+}
+
+#funcionario {
+    text-decoration: none;
+    color:white;
+   
+    
+}
+
+.citacao p {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    
+    margin-top: 60px;
+
+}
+body {
+    background-color: black;
+}
+
+.bnt {
+    text-align: center;
+    
+}
+
+/* footer */
+
+footer {
+    color: white;
+    margin-top: 200px;
+    background-image: url(./img/head.jpg);
+    font-size: 50px;
+    
+    
+}
+
+
+
+
+.rede-social {
+    position: relative;
+    left: 1500px;
+   
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.social{
+    width: 100px;
+    height: 100px;
+}
+
+.planilha, .planilha-2 {
+    font-size: 60px;
+    margin: auto;
+} 
+
+table  {
+    color:white;
+    text-align: center;
+}
+
+
+
+.branca, .golf, .moom, .left, .but {
+    width: 500px;
+    height: 520px;
+}
+
+/*formulario*/
+
+/*.formulario {
+   text-align: center;
+   font-size: 60px;
+   color: white;
+   
+}*/
+
+.formulario {
+    
+    color: white;
+    font-size: 60px;
+    height: 300px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.text-input {
+
+    width: 500px ;
+    height: 50px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+}
+

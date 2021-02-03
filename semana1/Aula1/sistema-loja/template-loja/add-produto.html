@@ -4,52 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Adicionar Produto</title>
 </head>
 <body>
-    <div>
-        <p>Bless Store</p>
-    </div>
-    
-    <div>
-        <a href="./index.html">Página Inicial</a>
-        <a href="./ctrl-estoque.html">Controle de Estoque</a>
-        <a href="./add-produto.html">Adicionar Produto</a>
-        <a href="./funcionarios.html">Funcionários</a>
+    <div class="cabeca">
+        <div class="corpo">
+            <a id="inicial" href="./index.html">Página Inicial</a>
+            <a id="estoque" href="./ctrl-estoque.html">Controle de Estoque</a>
+            <a id="produto" href="./add-produto.html">Adicionar Produto</a>
+            <a id="funcionario" href="./funcionarios.html">Funcionários</a>
+        </div>
+        <div class="cabecalho">
+            <h1>Bem-vind@ ao <em>Bless Store</em>!</h1>
+            <p>Onde qualidade e preço, é a nossa missão</p>
+        </div>
     </div>
 
     
     <h2>Adicionar Produto</h2>
-    <form action="">
-        <div>
-            <label for="link-foto">Link para foto: </label>
-            <input type="url" id="link-foto" name="link-foto">
-        </div>
+
+    <div class="formulario">
+         <form action="#">
+             <div>
+                <label for="link-foto">Link para foto: </label><br>
+                <input class="text-input" type="url" id="link-foto" name="link-foto">
+            </div>
         
         <div>
-            <label for="descricao">Descrição do produto: </label>
+            <label for="descricao">Descrição do produto: </label><br>
             <!-- Adicione o id apropriado para o input abaixo -->
-            <input type="text" id="descricao-produto" name="descrição">
+            <input class="text-input" type="text" id="descricao-produto" name="descrição">
         </div>
         
         <div>
-            <label for="preco">Preço (em R$): </label>
+            <label for="preco">Preço (em R$): </label><br>
             <!-- Adicione o id apropriado e o type para receber números abaixo -->
-            <input type="" id="preco-valor" name="preço">
+            <input class="text-input" type="" id="preco-valor" name="preço">
         </div>
         
         <div>
             <!-- Preencha as propriedades necessárias para os elementos abaixo -->
-            <label for="quantidade">Quantidade disponível: </label>
-            <input type="number" id="quantidade-produtos" name="quantidade">
+            <label for="quantidade">Quantidade disponível: </label><br>
+            <input class="text-input" type="number" id="quantidade-produtos" name="quantidade">
         </div>
 
         <div class="form-add">
             <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
-            <button type="submit">Adicionar</button>
+            <button class="btn" type="submit">Adicionar</button>
         </div>
+        </form>
+    </div>
 
-    </form>
+    <footer class="add-produto">
+        
+        <p id="para">Siga-nos nas redes sociais!</p>
+
+    <div class="rede-social">
+        <img class="social" src="https://image.flaticon.com/icons/png/512/25/25305.png" />
+        <img class="social" src="https://image.flaticon.com/icons/png/512/25/25425.png"/>
+        <img class="social" src="https://image.flaticon.com/icons/png/512/8/8800.png" />
+    </div>
+   
+</footer>
 
 </body>
 </html>

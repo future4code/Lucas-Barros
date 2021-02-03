@@ -4,53 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Controle de Estoque</title>
 </head>
 <body>
-    <div>
-        <p>Bless Store</p>
-    </div>
-    
-    <div>
-        <a href="./index.html">Página Inicial</a>
-        <a href="./ctrl-estoque.html">Controle de Estoque</a>
-        <a href="./add-produto.html">Adicionar Produto</a>
-        <a href="./funcionarios.html">Funcionários</a>
+    <div class="cabeca">
+        <div class="corpo">
+            <a id="inicial" href="./index.html">Página Inicial</a>
+            <a id="estoque" href="./ctrl-estoque.html">Controle de Estoque</a>
+            <a id="produto" href="./add-produto.html">Adicionar Produto</a>
+            <a id="funcionario" href="./funcionarios.html">Funcionários</a>
+        </div>
+        <div class="cabecalho">
+            <h1>Bem-vind@ ao <em>Bless Store</em>!</h1>
+            <p>Onde qualidade e preço, é a nossa missão</p>
+        </div>
     </div>
 
     <h2>Controle de Estoque</h2>
 
-    <table border="1">
+    <table class="planilha-2" border="1">
         <tr>
             <th>Foto</th>
             <th>Descrição</th>
             <th>Preço (R$)</th>
-            <th>Quantidade disponível</th>
+            <th>Quantidade <br>disponível</th>
         </tr>
 
         <tr>
-            <td><img src="./img/better.png" alt="camisa-better" style="width:100px;height:120px;"/></td>
+            <td ><img class="branca" src="./img/better.png" alt="camisa-better" /></td>
             <td> Camisa de algodão </td>
             <td> 69,90 </td>
             <td> 01 pc </td>
         </tr>
 
         <tr>
-            <td><img src="./img/golf.png" alt="camisa-golf" style="width:100px;height:120px;"/></td>
+            <td ><img class="golf" src="./img/golf.png" alt="camisa-golf" /></td>
             <td> Camisa de Poliester </td>
             <td> 86,90 </td>
             <td> 03 pc </td>
         </tr>
 
         <tr>
-            <td><img src="./img/jesus-moom.png" alt="camisa-jesus-moom" style="width:100px;height:120px;"/></td>
+            <td ><img class="moom" src="./img/jesus-moom.png" alt="camisa-jesus-moom" /></td>
             <td> Camisa algodão </td>
             <td> 56,99 </td>
             <td> 08 pc </td>
         </tr>
 
         <tr>
-            <td><img src="./img/left.png" alt="camisa-left" style="width:100px;height:120px;"/></td>
+            <td ><img class="left" src="./img/left.png" alt="camisa-left" /></td>
             <td> Camisa  Elastano</td>
             <td> 66,89 </td>
             <td> 03 pc </td>
@@ -59,13 +62,25 @@
         <!-- Crie mais uma linha desta tabela abaixo \/ -->
 
         <tr>
-            <td><img src="./img/buttz.png" alt="camisa-butts" style="width:100px;height:120px;"/></td>
+            <td><img class="but" src="./img/buttz.png" alt="camisa-butts" /></td>
             <td> Camisa Poliester </td>
             <td> 99,10 </td>
             <td> 06 pc </td>
         </tr>
 
     </table>
+
+    <footer>
+        
+        <p>Siga-nos nas redes sociais!</p>
+
+    <div class="rede-social">
+        <img class="social" src="https://image.flaticon.com/icons/png/512/25/25305.png" />
+        <img class="social" src="https://image.flaticon.com/icons/png/512/25/25425.png"/>
+        <img class="social" src="https://image.flaticon.com/icons/png/512/8/8800.png" />
+    </div>
+   
+</footer>
 
 </body>
 </html>
