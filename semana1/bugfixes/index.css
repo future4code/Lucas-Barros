@@ -3,7 +3,7 @@
   *  ESTILOS GERAIS 
   *
   **/
-  @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');>
+  /*@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');>*/
 
 * {
     margin: 0;
@@ -27,6 +27,8 @@ input {
     width: 500px;
 }
 
+
+
 button:focus {
     color: white;
 }
@@ -44,18 +46,20 @@ div>p:first-child {
 }
 
 div img {
-    
+    width: 30px;
 }
 
 .botao-amarelo {
     margin: auto;
     display: block;
+    margin-top: 60px;
     background-color: #ffaf43;
     width: 250px;
     height: 40px;
     border-radius: 5px;
     font-size: 20px;
     color: white;
+    
 }
 
 .botao-amarelo:hover {
@@ -63,7 +67,7 @@ div img {
 }
 
 .container {
-    padding-top: 50px;
+    padding-top: 190px;
     height: 500px;
     text-align: center;
 }
@@ -135,6 +139,9 @@ td button {
 
 
 #back-button {
+    position: relative;
+    left: 45%;
+    margin-top: 100px;
     background-color: white;
     width: 100px;
     height: 20px;
