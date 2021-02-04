@@ -54,6 +54,7 @@ div img:hover {
 }
 
 .botao-amarelo {
+    
     margin: auto;
     display: block;
     margin-top: 60px;
@@ -67,6 +68,11 @@ div img:hover {
     border: 0 none;
     outline: 0;
     
+    
+}
+
+#bnt {
+    text-decoration: none;
 }
 
 .botao-amarelo:hover {
@@ -77,6 +83,7 @@ div img:hover {
     padding-top: 190px;
     height: 500px;
     text-align: center;
+    
 }
 
 .icone {
