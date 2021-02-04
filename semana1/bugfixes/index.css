@@ -49,6 +49,10 @@ div img {
     width: 30px;
 }
 
+div img:hover {
+    opacity: 0.5;
+}
+
 .botao-amarelo {
     margin: auto;
     display: block;
