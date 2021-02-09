@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    height: 60px;
+    background-color:#000000 ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 18px;
+}
+
+footer {
+    display: flex;
+    height: 60px;
+    background-color:#000000 ;
+    color: red;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cabecalho h2 {
+    color: red;
+}
+
+
+
+.video, .video1, .video2, .video3, .video4, .video5, .video6, .video7 { 
+    display: grid;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.video7 {
+   
+}
+
+.video {
+    background-image: url(./img/intercâmbio-de-idiomas-na-Irlanda-1.jpg);
+}
+
+.lista {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    margin: 30px;
+    grid-row-gap: 8px;
+    grid-column-gap: 8px;
+
+}
+
+body {
+    height: 100vh;
+}
+
+/*.video1 {
+    width: 100px;
+    height: 4800px;
+    
+    
+}*/
+
+embed {
+    margin-left: 15%;
+}
+
+.nav-1 {
+    background: black;
+}
+
+img {
+    width: 300px;
+    height: 100px;
+}
