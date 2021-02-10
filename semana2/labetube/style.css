@@ -35,7 +35,7 @@ footer {
 }
 
 h1 {
-    color: white;
+    color: black;
     font-size: 50px;
     text-align: center;
     margin-bottom: 20px;
@@ -101,7 +101,7 @@ button {
 
 .lista {
     display: grid;
-    grid-template-columns: auto auto auto auto ;
+    grid-template-columns:  1fr  1fr  1fr 1fr  ;
     padding: 10px;
     margin: 30px;
     grid-row-gap: 15px;
@@ -125,14 +125,9 @@ body {
 embed {
     display: block;
     margin: 0 auto;
+    margin-bottom: 30px;
     
     
-}
-
- 
-
-.nav-1 {
-    background: black;
 }
 
 img {
