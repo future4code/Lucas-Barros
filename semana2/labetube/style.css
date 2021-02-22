@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    height: 60px;
+    background-color: #ef843a ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 18px;
+    text-decoration: none;
+}
+
+header a{
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    height: 60px;
+    background-color: #ef843a;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
+
+}
+
+.cabecalho h2 {
+    color: black;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+input {
+    height: 25px;
+    width: 300px;
+    
+}
+
+button {
+    height: 25px;
+    width: 80px;
+}
+
+
+
+.video, .video1, .video2, .video3, .video4, .video5, .video6, .video7 { 
+    display: grid;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    height: 200px;
+    align-items: flex-end;
+
+}
+
+
+
+.video {
+    background-image: url(./img/intercâmbio-de-idiomas-na-Irlanda-1\ 1.png);
+    
+}
+
+.video1 {
+    background-image: url(./img/jack-russel-4961793_640\ 1\ \(2\).png);
+}
+
+.video2 {
+    background-image: url(./img/beach-5672641_640\ 1.png);
+}
+
+.video3 {
+    background-image: url(./img/great-white-pelicans-5791392_640\ 1.png);
+}
+.video4 {
+    background-image: url(./img/person-5956897_640\ 1.png);
+}
+
+.video5 {
+    background-image: url(./img/snowboarding-4763731_640\ 1.png);
+}
+
+.video6 {
+    background-image: url(./img/gourmet-5619887_640\ 1.png);
+}
+
+.video7 {
+    background-image: url(./img/cat-4098058_640\ 1.png);
+}
+
+.lista {
+    display: grid;
+    grid-template-columns:  1fr  1fr  1fr 1fr  ;
+    padding: 10px;
+    margin: 30px;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    
+
+}
+
+body {
+    height: 100vh;
+   
+}
+
+/*.video1 {
+    width: 100px;
+    height: 4800px;
+    
+    
+}*/
+
+embed {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+    
+}
+
+img {
+    width: 300px;
+    height: 100px;
+}
+
+nav p {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: darkgrey;
+}
