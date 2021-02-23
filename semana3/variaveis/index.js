@@ -60,7 +60,7 @@ console.log(comidas)*/
 
 // 4. Faça um programa que contenha um array com 3 perguntas de Sim ou Não, armazenado em uma variável. Por exemplo: "Você está usando uma roupa azul hoje?". Depois, siga os passos:
 
-let perguntas = ['vai chover hoje?', 'você tem celular?', 'você gosta do Brasil?']
+/*let perguntas = ['vai chover hoje?', 'você tem celular?', 'você gosta do Brasil?']
 
 let respostas = [true, false, true]
 
@@ -68,3 +68,15 @@ console.log(perguntas[0], respostas[0])
 console.log(perguntas[1], respostas[1])
 console.log(perguntas[2], respostas[2])
 
+***/
+
+console.log("1.","hello world" + "how are you?" )
+
+console.log("2.", 10%5)
+
+console.log("3.", true && !true)
+
+console.log("4.", (9*5) + 3)
+
+const array = [103, 109, 304, 893, 758, 920, 391, 458, 905]
+console.log("5.", array[0] + array[1] + array[5])
