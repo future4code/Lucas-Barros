@@ -39,7 +39,7 @@ console.log(restoDivisao)*/
 // o padrão do codigo é que sempre termina com 0
 // se colocar um numero impar o resto é sempre 1
 
-/*let listaDeTarefas = []
+let listaDeTarefas = []
 
 let perguntas = prompt ("o que fazer hoje?")
 listaDeTarefas.push(perguntas)
@@ -56,9 +56,9 @@ console.log(listaDeTarefas)
 
 let indice = prompt ("qual item você realizou?")
 listaDeTarefas.splice(indice, 1)
-console.log(listaDeTarefas)*/
+console.log(listaDeTarefas)
 
-/*let nomeDoUsuario = prompt ("Qual o seu nome?")
+let nomeDoUsuario = prompt ("Qual o seu nome?")
 let emailDoUsuario = prompt ("Qual o seu email?")
 
 console.log("O e-mail", emailDoUsuario , "foi cadastrado com sucesso. Seja bem-vinda(o)", nomeDoUsuario)*/
