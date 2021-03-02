@@ -50,8 +50,86 @@ sobreMim1("lucas", 30, "aracaju", "false" );*/
 // Exercicio 5 
 //a. Escreva uma função que receba um array de números e devolva a quantidade de elementos nele
 
-const array = [10, 23, 45, 78, 90, 52, 35, 67, 84, 22]
 
-function elemento(array) {
+function soma(numero1, numero2) {
+    return numero1 + numero2
     
 }
+
+console.log(soma(21, 13))
+
+//b
+
+/*function par(num1, num2) {
+    let resultado = num1 + num2
+    let pares = resultado % 2
+    if (pares === 0) {
+        return console.log("é par")
+    }else{
+        return console.log("é impar")
+    }
+}*/
+
+/*
+function doisNumeros(num1, num2) {
+    
+    return num1 > num2
+
+}
+
+console.log(doisNumeros(7, 9))
+*/
+
+//c. 
+
+function imprime(mensagem) {
+    
+ 
+    for(let i = 0; i < 10; i++) {
+        console.log(mensagem)
+    }
+}
+
+imprime("ola lucas")
+
+
+//exercicio 6
+
+const array = [10, 23, 45, 78, 90, 52, 35, 67, 84, 22]
+
+
+//a
+function tamanhoDaArray(numero1) {
+   return numero1.length  // no meu exerrcico estava fazendo exatamente assim mas no final eu não colocava o console.log e si somente a função e não funcionava, acho que meu problema está mas em conceito do que outra coisa
+}
+
+console.log(tamanhoDaArray(array))
+
+//b
+
+function epar(n) {
+    let modulo = n% 2
+    if (modulo === 0) {
+        return true
+    } else{
+        return false
+    }
+}
+
+console.log("o numero é par?", epar(9))
+
+//c
+
+let conjuntoNumeros = [10, 23, 45, 78, 90, 52, 35, 67, 84, 22]
+
+function calculaPar(arrayDeNumeros) {
+    let numerosPares = [];
+    for(const numero of arrayDeNumeros){
+        if(numero % 2 ===0){
+            numerosPares.push(numero)
+        }
+    }
+    return numerosPares.length
+}
+
+console.log(calculaPar(conjuntoNumeros))
