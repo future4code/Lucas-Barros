@@ -24,3 +24,5 @@ export class SecaoComentario extends Component {
 		</div>
 	}
 }
+
+//teste teste
