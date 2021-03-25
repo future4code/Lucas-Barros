@@ -1,26 +1,23 @@
 import React from "react";
 import axios from "axios";
 import './App.css';
+import TelaRegistro from "./components/TelaRegistro"
+import Menu from  "./components/Menu"
+
 
 export default class App extends React.Component {
+  
   state = {
     usuarios: [],
-    inputValueNome: "",
-    inputValueEmail: "",
+    page: "cadastrar"
   }
 
-  handleInputChangeNome = (e) => {
-    this.setState({inputValueNome: e.target.value})
+  changePage = () => {
+
   }
-
-  handleInputChangeEmail = (e) => {
-    this.setState({inputValueEmail: e.target.value})
-  }
-
-
 
   getAllUser = () => {
-    axios.get('https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users',
+          axios.get('https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users',
     {
       headers: {
         Authorization: "lucas-costa-cruz"
@@ -35,10 +32,10 @@ export default class App extends React.Component {
     })
   };
 
-  createUser = () => {
+  createUser = (nome, email) => {
     const body = {
-      name: this.state.inputValueNome,
-      email: this.state.inputValueEmail
+      name: nome,
+      email: email
     };
     axios.post(
       "https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users", body,
@@ -48,9 +45,9 @@ export default class App extends React.Component {
         }
       }
     ).then((res) => {
-      this.setState({inputValueNome: ""})
-      this.setState({inputValueEmail: ""})
+      
       this.getAllUser()
+
     }).catch((err) => {
       console.log(err.response.data);
     });
@@ -63,18 +60,9 @@ export default class App extends React.Component {
 
     return (
       <div className="App">
-        <input
-        placeholder={"nome:"}
-        value={this.state.inputValueNome}
-        onChange={this.handleInputChangeNome}
-        />
-        <input
-        placeholder={"e-mail:"}
-        value={this.state.inputValueEmail}
-        onChange={this.handleInputChangeEmail}
-        />
-        <button onClick={this.createUser}>Salvar</button>
-        <li>{listUsers}</li>
+        <Menu />
+        <TelaRegistro createUser ={this.createUser} />
+       <ul> {listUsers} </ul>
       </div>
     );
   }
